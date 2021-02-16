@@ -8,6 +8,7 @@ using Xunit;
 
 namespace ZStringTests
 {
+    [UseCulture("en-US")]
     public class FormatTest
     {
         internal static void Test<T0, T1>(string format, T0 t0, T1 t1)

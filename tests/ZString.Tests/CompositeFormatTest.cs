@@ -9,6 +9,7 @@ using static FluentAssertions.FluentActions;
 using static ZStringTests.FormatTest;
 namespace ZStringTests
 {
+    [UseCulture("en-US")]
     public class CompositeFormatTest
     {
         [Theory]
@@ -53,7 +54,7 @@ namespace ZStringTests
         [InlineData(@"{0\,0}")]
         [InlineData(@"{0,0\:}")]
         [InlineData(@"{0:\}}")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1031:Do not catch general exception types", Justification = "<•Û—¯’†>")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1031:Do not catch general exception types", Justification = "<ï¿½Û—ï¿½ï¿½ï¿½>")]
         public void IncorrectFormat(string format)
         {
             var value = 9999;

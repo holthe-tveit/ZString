@@ -12,7 +12,8 @@ namespace ZStringTests
     {
         Fruit, Apple, Orange
     }
-
+    
+    [UseCulture("en-US")]
     public class Primitives
     {
         [Theory]
